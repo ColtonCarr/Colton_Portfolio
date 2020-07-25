@@ -1,0 +1,125 @@
+<html lang="en">
+	<head><link rel="stylesheet" href="normalize.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Colton's Portfolio</title>
+		
+		<link rel="stylesheet" href="CarrColtonPortfolioStylesheet.css">
+        <script src="https://kit.fontawesome.com/19d0ddbb2f.js" crossorigin="anonymous"></script>
+		<!--Input desired font here-->
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<!--Logo goes here -->
+			</div>
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+					<li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<!--Introduction Section -->
+		<section class="intro" id="home">
+			<h1 class="section__title section__title--intro">
+				Hi, I am <strong>Colton Carr</strong>
+			</h1>
+			<p class="section__subtitle section__subtitle--intro">Game Designer</p>
+			<img src="img/PortfolioPic.jpg" alt="Colton's profile pic" class="intro__img">
+		</section>
+		
+		<!--My Services-->
+		<section class="my-services" id="services">
+			<h2 class="section__title section__title--services">What I do</h2>
+			<div class="services">
+				<div class="service">
+					<h3> Design and Development</h3>
+					<p>I seek to provide innovative designs that exceed expectations. This is accomplished by breaking down each request, establishing a plan of action, then developing the necessary assets requested. I'm experienced with using SCRUM development strategies to ensure all tasks are completed.</p>
+				</div><!--Service-->
+				
+				<div class="service">
+					<h3> Programming</h3>
+					<p>I am experienced with C# to script behavior, physics, scoring, and more within a Unity environment. I'm also fluent in HTML, CSS, and growing my knowledge in Javascript to produce and provide functionality to Web Designs. </p>
+				</div><!--Service-->
+				
+				<div class="service">
+					<h3> Debbuging </h3>
+					<p>I am able to review code, locate faults, and remedy them. Should I not be able to find a result immediately, I will work quickly to locate the resolution and implement said solution.</p>
+				</div><!--Service-->
+				
+			</div><!--Services-->
+			
+			<a href="#work" class="btn">My Work</a>
+		</section>
+		
+		<!--About Me-->
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I am</h2>
+			<p class="section__subtitle section__subtitle--about">Game Designer and Developer from Lebanon, TN</p>
+			
+			<div class="about-me__body">
+				<p>"Can you imagine what I would do if I could do all I can?" -Sun Tzu</p>
+				<p>Family man by day, designer at night, I recently received my Bachelor's Degree from Full Sail University. Combining with my certificate of being a Tennessee Scholar, I have had to learn prioritization, time management, collaboration, commuication, in order to accomplish my goals. During my time with Full Sail, I maintained a postion within Lyft, Inc's Safety department, where I also assisted in projects that improved the company's workflow and policies. When not working or being being with the family, I spend my time learning new programming techniques, building games and constructing websites. Never shy from a challenge I seek to improve my skills and prove myself in any task I set before me.</p>
+			</div>
+			
+			<img src="img/Photo2.jpg" alt="Colton smiling in a tux" class="about-me__img">
+		</section>
+		
+		<!--My Work-->
+		<section class="my-work" id="projects">
+			<h2 class="section__title section__title--work">My work</h2>
+			<p class="section__subtitle section__subtitle--work">My range of work</p>
+			
+			<div class="portfolio">
+				<!--Portfolio-->
+				<a href="portfolio-item.html" class="portfolio__item">
+				<img src="img/TicTacToe.jpg" alt="Split Screen of TicTacToe and code" class="portfolio__img">
+				</a>
+			</div>
+            
+            <div class="portfolio">
+				<!--Portfolio-->
+				<a href="portfolio-item2.html" class="portfolio__item">
+				<img src="img/AIMovement.jpg" alt="Screenshot of AI being programmed in Unity" class="portfolio__img">
+				</a>
+			</div>
+            
+             <div class="portfolio">
+				<!--Portfolio-->
+				<a href="#" class="portfolio__item">
+				<img src="img/AIMovement2.jpg" alt="Second screenshot of AI being programmed in Unity" class="portfolio__img">
+				</a>
+			</div>
+            
+             <div class="portfolio">
+				<!--Portfolio-->
+				<a href="#" class="portfolio__item">
+				<img src="img/BallPhysics.jpg" alt="Screenshot of AI being programmed in Unity" class="portfolio__img">
+				</a>
+			</div>
+			
+			<!--Footer-->
+			<footer class="footer">
+				<a href="mailto:coltoncarr1993@gmail.com" class="footer__link">Contact Me</a>
+				<ul class="social-list">
+					<!--Social Media Network Below-->
+					<li class="social-list__item"><a class="social-list__link"
+					href="https://www.linkedin.com/in/colton-carr-944822143/"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="social-list__item"><a class="social-list__link"
+					href="https://github.com/ColtonCarr"><i class="fab fa-github"></i></a>
+                    </li>
+				</ul>
+			</footer>
+            
+            <script src="index.js"></script>
+            
+	</body>
+</html>

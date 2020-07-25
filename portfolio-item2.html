@@ -1,0 +1,58 @@
+<html lang="en">
+	<head><link rel="stylesheet" href="normalize.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Colton's Portfolio</title>
+		
+		<link rel="stylesheet" href="CarrColtonPortfolioStylesheet.css">
+        <script src="https://kit.fontawesome.com/19d0ddbb2f.js" crossorigin="anonymous"></script>
+		<!--Input desired font here-->
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<!--Logo goes here -->
+			</div>
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="CarrColtonPortfolio.html" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="CarrColtonPortfolio.html#services" class="nav__link">My Services</a></li>
+					<li class="nav__item"><a href="CarrColtonPortfolio.html#about" class="nav__link">About Me</a></li>
+					<li class="nav__item"><a href="CarrColtonPortfolio.html#projects" class="nav__link">Projects</a></li>
+				</ul>
+			</nav>
+		</header>
+
+<section class="intro">
+			<h1 class="section__title section__title--intro">
+				 <strong>AI Movement</strong>
+			</h1>
+			<p class="section__subtitle section__subtitle--intro">Breathing life into pieces</p>
+			<img src="img/AIMovement.jpg" alt="Ai baking in Unity" class="intro__img">
+		</section>
+        
+        <div class="portfolio-item-individual">
+            <p></p>
+            <img src="img/AIMovement2.jpg" alt="Another pic of AI movement baking in Unity">
+            <p>In this project, I was tasked with setting up an AI using C# and Unity's NavMesh feature. The AI is coded to move from NavPoint to NavPoint unless a player piece enters the AI's line of vision. Once the player is spotted, the AI will then move to a collider and trip the alarm.</p>
+            <p>This project was designed to get us intoduced to state machines and learning how that can be used to create an opposing force</p>
+        </div>
+
+			<!--Footer-->
+			<footer class="footer">
+				<a href="mailto:coltoncarr1993@gmail.com" class="footer__link">coltoncarr1993@gmail.com</a>
+				<ul class="social-list">
+					<!--Social Media Network Below-->
+					<li class="social-list__item"><a class="social-list__link"
+					href="#"><i class="fab fa-google"></i></a><!-- Gmail -->
+                    </li>
+				</ul>
+			</footer>
+              
+            <script src="index.js"></script>
+            
+	</body>
+</html>
